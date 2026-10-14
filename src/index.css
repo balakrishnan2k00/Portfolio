@@ -217,14 +217,20 @@ main {
 }
 
 .nav-logo {
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   flex-shrink: 0;
-  filter: drop-shadow(0 2px 5px color-mix(in srgb, var(--accent) 40%, black));
 }
 
 .brand-logo {
   display: block;
+}
+
+.brand-logo__text {
+  fill: var(--btn-primary-text);
+  paint-order: stroke fill;
+  stroke: rgb(255 255 255 / 0.25);
+  stroke-width: 0.4px;
 }
 
 .brand-logo__fill-top {
@@ -251,19 +257,64 @@ main {
   stroke: rgb(255 255 255 / 0.38);
 }
 
-.brand-logo__text {
-  fill: var(--btn-primary-text);
-  paint-order: stroke fill;
-  stroke: rgb(255 255 255 / 0.25);
-  stroke-width: 0.4px;
-}
-
 [data-theme='dark'] .brand-logo__shine-a {
   stop-color: rgb(255 255 255 / 0.55);
 }
 
 [data-theme='dark'] .brand-logo__rim {
   stroke: rgb(255 255 255 / 0.28);
+}
+
+/* Nav profile mark — long color bands, seamless dash loops */
+.profile-icon,
+.walk-icon {
+  display: block;
+  overflow: visible;
+  --icon-lime: color-mix(in srgb, var(--accent) 35%, #d4ff4d);
+  --icon-teal: color-mix(in srgb, var(--accent-2) 30%, #5ef0ff);
+}
+
+[data-theme='dark'] .profile-icon,
+[data-theme='dark'] .walk-icon {
+  --icon-lime: color-mix(in srgb, var(--accent) 25%, #f4ff8a);
+  --icon-teal: color-mix(in srgb, var(--accent-2) 20%, #b8fbff);
+}
+
+.profile-icon__ring-base,
+.profile-icon__arc-base {
+  stroke: color-mix(in srgb, var(--text-muted) 50%, var(--text));
+  stroke-opacity: 0.65;
+}
+
+.profile-icon__ring-accent {
+  stroke: var(--icon-lime);
+}
+
+.profile-icon__ring-spin {
+  transform-origin: 0 0;
+  will-change: transform;
+  animation: profile-ring-rotate 4.5s linear infinite;
+}
+
+.profile-icon__arc-accent {
+  stroke: var(--icon-teal);
+  will-change: stroke-dashoffset;
+  animation: profile-arc-colors 4.5s linear infinite;
+}
+
+@keyframes profile-ring-rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes profile-arc-colors {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -100;
+  }
 }
 
 .nav-links {
@@ -1176,7 +1227,9 @@ main {
   .hero-ring,
   .bounce,
   .reveal,
-  .skill-detail-card {
+  .skill-detail-card,
+  .profile-icon__ring-spin,
+  .profile-icon__arc-accent {
     animation: none !important;
     transition: none !important;
   }

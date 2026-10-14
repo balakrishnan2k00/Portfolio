@@ -4,7 +4,6 @@ export const profile = {
   tagline: 'React · Azure · C# · .NET Core · AI/GenAI',
   location: 'Hyderabad, India',
   email: 'Balakrishnan2k00@gmail.com',
-  phone: '9550012735',
   github: 'https://github.com/balakrishnan2k00',
   links: 'https://linktr.ee/balakrishnan2k',
   summary:

@@ -2,7 +2,9 @@
 
 Glassmorphism portfolio for Balakrishnan A — React, Vite, light/dark theme, and GitHub Pages.
 
-**Live site (after deploy):** https://balakrishnan2k00.github.io/portfolio/
+**Live site:** https://balakrishnan2k00.github.io/Portfolio/
+
+> GitHub Pages uses your repo name in the URL. This repo is **`Portfolio`** (capital P), so `.../portfolio/` (lowercase) will **404**. To use a lowercase URL, rename the repo on GitHub to `portfolio` and update `homepage` in `package.json`.
 
 **Stack:** React 19, Vite, JavaScript. Icons: Lucide + `react-icons` (skills). Deploy: `gh-pages` (same pattern as [bento](https://github.com/balakrishnan2k00/bento)).
 
@@ -98,7 +100,7 @@ git init
 git add -A
 git commit -m "Initial portfolio site"
 git branch -M main
-git remote add origin https://github.com/balakrishnan2k00/portfolio.git
+git remote add origin https://github.com/balakrishnan2k00/Portfolio.git
 git push -u origin main
 ```
 
@@ -123,7 +125,7 @@ npm run deploy
 
 This runs `vite build` and pushes the contents of `dist/` to the **`gh-pages`** branch.
 
-After a minute or two, open https://balakrishnan2k00.github.io/portfolio/
+After a minute or two, open https://balakrishnan2k00.github.io/Portfolio/
 
 ---
 
@@ -175,7 +177,8 @@ npm run deploy
 | Live site is old | Run `npm run deploy` again. Hard-refresh the browser (Ctrl+Shift+R). |
 | Tab icon unchanged | Browsers cache favicons; hard-refresh or open the site in a new profile. |
 | GitHub section outdated | `npm run refresh-github`, commit JSON files, then `npm run deploy`. |
-| Wrong Pages URL | `homepage` in `package.json` must match `https://<user>.github.io/<repo>/` and `vite.config.js` uses `base: './'`. |
+| **404** on the site | URL must match repo name **exactly** (e.g. `/Portfolio/` not `/portfolio/`). Check `homepage` in `package.json`. |
+| Wrong asset paths | `vite.config.js` uses `base: './'`. After changing `homepage`, run `npm run deploy` again. |
 
 ---
 

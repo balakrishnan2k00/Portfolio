@@ -24,7 +24,7 @@ export function Hero() {
           </div>
 
           <div className="hero-copy">
-            <p className="hero-eyebrow">Hello Dreamers!, I&apos;m</p>
+            <p className="hero-eyebrow">Hello Dreamers, I&apos;m</p>
             <h1>{profile.name}</h1>
             <p className="hero-title">{profile.title}</p>
             <p className="hero-tagline">{profile.tagline}</p>

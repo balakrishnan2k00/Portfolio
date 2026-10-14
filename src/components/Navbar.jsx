@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Menu, Moon, Sun, X } from 'lucide-react'
 import { navLinks } from '../data'
 import { applyTheme, getInitialTheme } from '../theme'
-import { BrandLogo } from './BrandLogo'
+import { WalkingProfileIcon } from './WalkingProfileIcon'
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -35,7 +35,7 @@ export function Navbar() {
           className="nav-brand"
           onClick={() => go('home')}
         >
-          <BrandLogo className="nav-logo" />
+          <WalkingProfileIcon className="nav-logo" />
           <span>&lt; Balakrishnan /&gt;</span>
         </button>
 

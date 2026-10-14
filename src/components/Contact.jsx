@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Mail, Phone } from 'lucide-react'
+import { ExternalLink, Github, Mail } from 'lucide-react'
 import { profile } from '../data'
 import { SectionHeading } from './SectionHeading'
 import { Reveal } from './Reveal'
@@ -23,10 +23,6 @@ export function Contact() {
             <a href={`mailto:${profile.email}`}>
               <Mail size={18} aria-hidden="true" />
               {profile.email}
-            </a>
-            <a href={`tel:+91${profile.phone}`}>
-              <Phone size={18} aria-hidden="true" />
-              +91 {profile.phone}
             </a>
             <a href={profile.github} target="_blank" rel="noreferrer">
               <Github size={18} aria-hidden="true" />

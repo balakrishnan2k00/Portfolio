@@ -1,0 +1,98 @@
+{
+  "fetchedAt": "2026-10-14",
+  "user": {
+    "login": "balakrishnan2k00",
+    "name": "Balakrishnan A",
+    "bio": "Hello Dreamers! This is my profile",
+    "blog": "https://linktr.ee/balakrishnan2k",
+    "location": "Hyderabad, India",
+    "html_url": "https://github.com/balakrishnan2k00",
+    "avatar_url": "https://avatars.githubusercontent.com/u/50417542?v=4",
+    "public_repos": 24,
+    "followers": 8,
+    "following": 23,
+    "hireable": true
+  },
+  "repos": [
+    {
+      "name": "bento",
+      "description": "Personal Bento start page",
+      "html_url": "https://github.com/balakrishnan2k00/bento",
+      "homepage": null,
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-10-13T11:39:06Z"
+    },
+    {
+      "name": "FastAPI",
+      "description": "reference",
+      "html_url": "https://github.com/balakrishnan2k00/FastAPI",
+      "homepage": null,
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-06-22T14:00:18Z"
+    },
+    {
+      "name": "rag-agent-app",
+      "description": null,
+      "html_url": "https://github.com/balakrishnan2k00/rag-agent-app",
+      "homepage": null,
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-06-19T12:43:44Z"
+    },
+    {
+      "name": "rag-agent",
+      "description": null,
+      "html_url": "https://github.com/balakrishnan2k00/rag-agent",
+      "homepage": null,
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-06-19T11:02:09Z"
+    },
+    {
+      "name": "Temp",
+      "description": "Temp",
+      "html_url": "https://github.com/balakrishnan2k00/Temp",
+      "homepage": null,
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-04-08T11:25:31Z"
+    },
+    {
+      "name": "BubbleDrop",
+      "description": "Water Management BubbleDrop",
+      "html_url": "https://github.com/balakrishnan2k00/BubbleDrop",
+      "homepage": null,
+      "language": "C#",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-03-30T12:23:59Z"
+    },
+    {
+      "name": "Quicksight-Backend",
+      "description": "AWS Quick-Sight embed",
+      "html_url": "https://github.com/balakrishnan2k00/Quicksight-Backend",
+      "homepage": null,
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-02-26T06:30:52Z"
+    },
+    {
+      "name": "support-ticketing-frontend",
+      "description": "support frontend ui",
+      "html_url": "https://github.com/balakrishnan2k00/support-ticketing-frontend",
+      "homepage": null,
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-02-15T12:22:43Z"
+    }
+  ]
+}

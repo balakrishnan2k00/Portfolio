@@ -1,0 +1,55 @@
+#header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../Images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+.profile-box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.profile-box h1 {
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+}
+.profile-box p{
+    color:#fff;
+}
+
+.nav-link , .name-td{
+    color: rgb(201, 214, 86) !important;
+}
+
+.navbar {
+    position: relative;
+   
+    display: flex;
+   
+   
+    -webkit-box-align: center;
+   
+    align-items: center;
+    
+    padding: 0.5rem 1rem;
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+
+  .site-logo{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+
+  }
+
+h1{
+    color: rgb(201, 214, 86) !important;
+}

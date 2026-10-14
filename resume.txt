@@ -1,0 +1,66 @@
+BALAKRISHNAN A
+Full-Stack .NET Developer | React | Azure | C# | .NET Core | AI/GenAI
+Hyderabad, India | 9550012735 | Balakrishnan2k00@gmail.com
+PROFESSIONAL SUMMARY
+Full-Stack Developer with 4+ years of experience building, modernizing, and supporting enterprise applications in regulated financial
+and cloud environments. Strong expertise in C#, .NET Core, Web API, React.js, JavaScript, SQL Server, Azure, Python, FastAPI,
+and CI/CD. Experienced in legacy application modernization, REST API integration, regulatory reporting, ETL/data pipelines,
+automation, application security, and AI/GenAI-enabled solutions. Hands-on experience with Azure OpenAI, Azure Functions, App
+Services, Cosmos DB, Service Bus, Microsoft Fabric, Tableau, and FastAPI. Proven ability to collaborate across teams, mentor
+developers, and deliver solutions in Agile environments.
+CORE TECHNICAL SKILLS
+Frontend: React.js, JavaScript, React Hooks, Context API, State Management, React Query, HTML5, CSS/SCSS, Figma
+Backend: C#, .NET Framework, .NET Core, ASP.NET, Web API, LINQ, EF Core, ADO.NET, Dapper, Python, FastAPI
+Cloud & Azure: Azure Functions, App Services, Cosmos DB, Key Vault, Service Bus, Azure DevOps
+AI / GenAI: Azure OpenAI, Prompt Engineering, GenAI-assisted Development, LLM Orchestration, Autonomous Agent Frameworks
+Databases: SQL Server, MongoDB, Postgresql
+DevOps / Testing: Git, GitHub, CI/CD, npm, Vite, NUnit, xUnit, Postman
+Data & Reporting: Microsoft Fabric, Tableau, ETL Workflows, PowerPoint Automation
+Methodologies: Agile/Scrum, JIRA, Regulated SDLC, Technical Documentation
+PROFESSIONAL EXPERIENCE
+HEXAWARE TECHNOLOGIES — Software Engineer
+Full-Stack .NET Developer | Jun 2022 – Present | Client: Royal Bank of Canada (RBC) — Regulatory Reporting
+• Developed and supported enterprise full-stack applications using React.js, .NET Core, Web API, C#, and SQL in a regulated financial
+environment.
+• Contributed to modernization of legacy ASP.NET applications by migrating functionality toward scalable React.js and .NET Core
+architecture.
+• Developed reporting and workflow solutions integrating ETL processes, Tableau reporting, and batch automation.
+• Designed and deployed cloud-based solutions using Azure Functions, App Services, Cosmos DB, Key Vault, and Service Bus.
+• Implemented and supported CI/CD pipelines, Git workflows, and deployment automation to improve release efficiency.
+• Contributed to AI-driven application development using Azure OpenAI, Python, FastAPI, prompt engineering, and data pipelines.
+• Improved application security through encryption, tokenization, data masking, vulnerability remediation, and audit support.
+• Investigated and resolved data ingestion, data integrity, application reliability, and platform support issues.
+• Collaborated with backend, frontend, business, design, and operations teams in an Agile/JIRA-driven environment.
+• Led small development teams, mentored team members, and supported timely delivery of project requirements.
+KEY PROJECTS
+Talent Matching Platform | Feb 2026 – Jul 2026
+AI-driven talent screening and matching platform for matching candidate profiles with job allocation requirements.
+• Led production data onboarding and supported backend workflows for an AI-driven talent matching platform.
+• Developed backend workflows using Python, FastAPI, and Azure Functions.
+• Integrated Azure OpenAI for automated candidate and job-request screening.
+• Optimized system and user prompts to improve extraction and screening accuracy.
+• Worked with Azure Cosmos DB for candidate and job-request information.
+• Designed test automation frameworks and Microsoft Fabric pipelines supporting Lakehouse-to-Cosmos DB data flow.
+• Supported end-to-end data pipeline validation and integrity testing.
+Technologies: Python | FastAPI | Azure Functions | Azure OpenAI | Azure Cosmos DB | Microsoft Fabric | Postman
+
+KEY PROJECTS (CONTINUED)
+FR Y-14 Regulatory Reporting Portal | May 2024 – Jan 2026
+Enterprise regulatory reporting portal supporting financial reporting workflows.
+• Developed responsive and reusable React.js UI components based on Figma designs.
+• Integrated frontend modules with REST APIs for data-driven regulatory reporting workflows.
+• Supported modernization of legacy application components toward React.js and .NET Core architecture.
+• Developed data-driven views and monitoring dashboards to improve operational visibility.
+• Collaborated with backend, business, and design teams to deliver features aligned with functional and acceptance requirements.
+• Worked within an Agile/JIRA-driven development environment.
+Technologies: React.js | JavaScript | HTML5 | CSS | Figma | REST APIs | JIRA | Agile
+Tableau Dashboard PPT Reports | Apr 2023 – Jun 2023
+Automated reporting solution replacing a manual Tableau-to-PowerPoint reporting process.
+• Developed an automated reporting framework using C#/.NET and Python.
+• Created scheduled .NET jobs to trigger Python-based reporting workflows.
+• Automated extraction of Tableau dashboard images from subscription emails.
+• Automated PowerPoint report generation and distribution to stakeholders.
+• Improved reliability through SQL query optimization, audit logging, notifications, and error recovery.
+• Designed the framework for potential reuse with other subscription-based visualization platforms.
+Technologies: C# | .NET | Python | Tableau | SQL | Outlook Integration | PowerPoint Automation
+

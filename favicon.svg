@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="BA">
+  <defs>
+    <linearGradient id="tab-gloss-fill" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#d4e887" />
+      <stop offset="45%" stop-color="#8fb33a" />
+      <stop offset="100%" stop-color="#5a7a24" />
+    </linearGradient>
+    <linearGradient id="tab-gloss-shine" x1="16" y1="5" x2="16" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <filter id="tab-shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#3d5218" flood-opacity="0.45" />
+    </filter>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#tab-gloss-fill)" filter="url(#tab-shadow)" />
+  <rect
+    x="1"
+    y="1"
+    width="30"
+    height="30"
+    rx="7"
+    fill="none"
+    stroke="#ffffff"
+    stroke-opacity="0.35"
+    stroke-width="0.75"
+  />
+  <ellipse cx="16" cy="9" rx="10" ry="5.5" fill="url(#tab-gloss-shine)" />
+  <text
+    x="16"
+    y="22"
+    text-anchor="middle"
+    font-family="system-ui, sans-serif"
+    font-size="13"
+    font-weight="800"
+    letter-spacing="-0.04em"
+    fill="#0f1a12"
+  >BA</text>
+</svg>
